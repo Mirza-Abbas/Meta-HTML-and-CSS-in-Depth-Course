@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Client-side Form Validation</title>
+    </head>
+    <body>
+        <main>
+            <form>
+                <div>
+                    <label for="username">Username</label><br>
+                    <input type="text" id="username" name="user" required minlength="3" maxlength="12">
+                </div>
+                <div>
+                    <label for="password">Password</label><br>
+                    <input type="password" id="password" name="password" required minlength="5">
+                </div>
+            </form>
+            <style>
+                input:focus:invalid {
+                    color: red;
+                    border: red 3px solid;
+                }
+            </style>
+        </main>
+    </body>
+</html>
