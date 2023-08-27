@@ -1,0 +1,25 @@
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    height: 150vh; 
+    /*1vh = 1% of viewport height  */
+    color:aliceblue
+}
+
+header {
+    background-color: #2C3333;
+    text-align: center;
+    padding: 2em;
+}
+
+main {
+    background-color: #395B64;
+    text-align: center;
+    padding: 2em;
+}
+
+footer {
+    background-color: #A5C9CA;
+    text-align: center;
+    padding: 2em;
+}
