@@ -1,0 +1,11 @@
+a[class]{
+    color: greenyellow;
+}
+
+a[href*="xyz"]{
+    background-color: red;
+}
+
+a[href="xyz.com/info"] {
+    color: azure;
+}
