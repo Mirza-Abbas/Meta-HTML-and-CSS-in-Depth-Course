@@ -1,0 +1,8 @@
+li:nth-child(1) {
+    color: aqua;
+}
+
+li:nth-of-type(2) {
+
+    color: red;
+}
