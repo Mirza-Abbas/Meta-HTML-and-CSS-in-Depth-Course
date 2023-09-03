@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Selectors Specificity Hierarchy</title>
+        <link rel="stylesheet" href="Specificity.css">
+    </head>
+    <body>
+
+        <h1>CSS Selectors Specificity Hierarchy:</h1>
+        <h2>(Highest to Lowest)</h2>
+
+        <p style="color: blue" id="p-id" class="p-class">
+            1. Inline Style
+        </p>
+        
+        <p id="p-id" class="p-class">
+            2. IDs
+        </p>
+        
+        <p class="p-class">
+            3. Classes, Attributes & Pseudo-classes
+        </p>
+        
+        <p>
+            4. Elements & Pseudo-Elements
+        </p>
+
+    </body>
+</html>
