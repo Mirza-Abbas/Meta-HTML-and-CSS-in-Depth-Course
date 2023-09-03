@@ -1,0 +1,11 @@
+p {
+    color: green;
+}
+
+.p-class {
+    color: red;
+}
+
+#p-id {
+    color: yellow;
+}
