@@ -1,0 +1,14 @@
+#tips::before {
+    color: black;
+    background-color: red;
+    content: "Tips:";
+    padding: 5px;
+    border: 2px solid black;
+}
+
+#tips::after {
+    color: black;
+    background-color: red;
+    content: "!!!";
+    padding: 2px;
+}
