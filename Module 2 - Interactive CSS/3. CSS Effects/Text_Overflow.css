@@ -1,0 +1,11 @@
+p {
+    width: 300px;
+    border: 2px solid red;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+p:hover {
+    overflow: visible;
+}
