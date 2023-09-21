@@ -1,0 +1,8 @@
+p {
+    width: 100px;
+    border: 2px solid red;
+}
+
+#wrap {
+    word-wrap: break-word;
+}
