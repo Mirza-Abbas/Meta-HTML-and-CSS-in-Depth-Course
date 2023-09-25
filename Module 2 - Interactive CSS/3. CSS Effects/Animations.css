@@ -1,0 +1,19 @@
+#animation{
+    width:450px;
+    animation: cycle 6s infinite linear;
+}
+
+@keyframes cycle {
+    from {
+        color: red;
+        font-size: 32px;
+        transform: rotate(0deg);
+    }
+    to {
+        background-color: yellow;
+        color: blue;
+        font-size: 62px;
+        border: 2px solid black;
+        transform: rotateY(360deg);
+    }
+}
